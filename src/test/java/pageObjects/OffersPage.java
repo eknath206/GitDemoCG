@@ -17,6 +17,9 @@ public class OffersPage {
 	public void searchItem(String name) {
 
 		driver.findElement(search).sendKeys(name);
+		System.out.println("Git Test 1");
+		System.out.println("Git Test 2");
+		System.out.println("Git Test 3");
 	}
 	
 	public void getSearchText()
