@@ -20,6 +20,9 @@ public class OffersPage {
 		System.out.println("Git Test 1");
 		System.out.println("Git Test 2");
 		System.out.println("Git Test 3");
+		System.out.println("Git Test 4");
+		System.out.println("Git Test 5");
+		System.out.println("Git Test 6");
 	}
 	
 	public void getSearchText()

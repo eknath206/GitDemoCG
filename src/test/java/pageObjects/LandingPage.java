@@ -42,11 +42,14 @@ public class LandingPage {
 	public void addToCart()
 	{
 		driver.findElement(addToCart).click();
+		System.out.println("Git Test 7");
+		System.out.println("Git Test 8");
 	}
 	
 	public String getProductName()
 	{
 		return driver.findElement(productName).getText();
+	
 	}
 	
 	public void selectTopDealsPage()
