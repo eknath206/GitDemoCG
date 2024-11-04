@@ -28,6 +28,7 @@ public class OffersPage {
 	public void getSearchText()
 	{
 		driver.findElement(search).getText();
+		System.out.println("Git Test 3 in develop branch");
 	}
 	
 	public String getProductName()

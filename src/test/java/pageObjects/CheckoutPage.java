@@ -21,6 +21,7 @@ public class CheckoutPage {
 	{
 		driver.findElement(cartBag).click();
 		driver.findElement(checkOutButton).click();
+		System.out.println("Git Test 1 in develop branch");
 	}
 	
 	public boolean VerifyPromoBtn()

@@ -27,6 +27,7 @@ public class LandingPage {
 	public void getSearchText()
 	{
 		driver.findElement(search).getText();
+		System.out.println("Git Test 2 in develop branch");
 	}
 	
 	public void incrementQuantity(int quantity)
