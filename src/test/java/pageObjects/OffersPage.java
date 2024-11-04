@@ -29,6 +29,7 @@ public class OffersPage {
 	{
 		driver.findElement(search).getText();
 		System.out.println("Git Test 3 in develop branch");
+		System.out.println("Git Test 4 in develop branch from GitWorkX");
 	}
 	
 	public String getProductName()
